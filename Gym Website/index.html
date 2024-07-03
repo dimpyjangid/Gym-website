@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LimitLess Gym</title>
+</head>
+<link href="https://fonts.google.com/specimen/Teko" rel="stylesheet">
+<link rel="stylesheet" href="style.css" class="css">
+<style>
+    body {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin: 0px;
+        padding: 0px; 
+        /* height: 2222px; */
+        background: url('https://img.freepik.com/free-photo/3d-gym-equipment_23-2151114137.jpg');
+        background-repeat: no-repeat;
+        background-size: 1999px 1000px;
+    }
+    .left img{
+        width: 100px;
+        height: auto;
+
+    }
+    .left div{
+        text-align: center;
+        line-height: 185px;
+        font-size: 23px;
+        left: auto;
+    }
+
+    .left{
+        /* border: 2px solid blue; */
+        color: aliceblue;
+        display: flex;
+        position: absolute;
+        left: 20px;
+        top: 10px;
+        align-items: center;
+        padding: 5px;
+    }
+
+    .right {
+        /* border: 3px solid rgb(21, 215, 215); */
+        color: aliceblue;
+        display: inline-block;
+        position: absolute;
+        right: 34px;
+        top: 33px;
+    }
+
+    .mid {
+        /* border: 2px solid rgb(202, 23, 169); */
+        color: aliceblue;
+        display: block;
+        width: 54%;
+        margin: 19px auto;  
+        text-align: center;
+        padding: 0px 40px;
+        font-size: 20px;
+        top: auto;
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        color: whitesmoke;
+        display: inline-block;
+        font-size: 25px;
+    }
+    .navbar li a{
+        color: rgb(245, 249, 250);
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+    .navbar li a:hover, .navbar li a.active{
+        text-decoration: underline ;
+        color: darkgrey;
+    }
+    .btn{
+        margin: 0px auto;
+        color: rgb(23, 220, 201);
+        background-color: black;
+        padding: 3px 14px;
+        border: 2px solid white;
+        border-radius: 10px;
+        font-size: 15px;
+        cursor: pointer;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .btn:hover{
+        background-color: rgb(49, 49, 46);
+    }
+    .container{
+        /* border: 2px solid rgb(157, 155, 145); */
+        margin: 40px 50px;
+        padding: 50px 50px;
+        width: 33%;
+        border-radius: 25px;
+        color: rgb(119, 230, 230);
+
+    }
+    .form-group input{
+        text-align: center;
+        display: block;
+        width: 412px;
+        padding: 10px;
+        border: 2px solid blueviolet;
+        margin: 2px auto;
+        font-size: 25px;
+        border-radius: 8px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    }
+    .container h1{
+        text-align: center;
+        font-family: "DM Sans", sans-serif;
+        color: rgb(39, 223, 211);
+    }
+    .container h3{
+        color: antiquewhite;
+        text-align: left;
+    }
+    .container button{
+        display: block;
+        width: 435px;
+        margin: 15px auto;
+        padding: 10px;
+        border-radius: 8px;
+    }
+    .img{
+        background-repeat: no-repeat;
+    }
+    
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="https://png.pngtree.com/png-clipart/20240302/original/pngtree-3d-body-builder-gym-logo-png-image_14481835.png" alt="">
+            <div class="left">
+                LimitLess
+            </div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#"class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Trainers                </a></li>
+                <li><a href="#">Events                </a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call us</button>
+            <button class="btn">Email</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>What hurts today makes you stronger tomorrow</h1>
+        <h3>Join us now</h3>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Contact number">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Email Id">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <button class="btn">
+                Submit
+            </button>
+        </form>
+    </div>
+</body>
+
+</html>
